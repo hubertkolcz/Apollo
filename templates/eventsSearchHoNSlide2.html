@@ -1,0 +1,14 @@
+<ion-view title="Events - Search - HoN - Slide2" hide-nav-bar="true" id="page9">
+  <ion-content padding="false" class="manual-ios-statusbar-padding">
+    <div id="eventsSearchHoNSlide2-button-bar6" class="button-bar">
+      <a ui-sref="tabsController.eventsPopular()" id="eventsSearchHoNSlide2-button29" style="font-weight:300;font-size:12px;" class="button button-positive button-block">Popular</a>
+      <a ui-sref="tabsController.eventsDashboard()" id="eventsSearchHoNSlide2-button30" style="font-weight:300;font-size:12px;" class="button button-positive button-block">Dashboard</a>
+      <button id="eventsSearchHoNSlide2-button31" style="font-weight:600;font-size:12px;" class="button button-positive button-block">Search</button>
+    </div>
+    <creator-map-component options="{}" marker="true" location="Madison Capital" zoom="12" style="display:block;position:relative;width:100%;height:300px;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+  </ion-content>
+</ion-view>

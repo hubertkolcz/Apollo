@@ -1,0 +1,17 @@
+<ion-view title="Food - Your list" hide-nav-bar="true" id="page20">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="false">
+    <div id="foodYourList-button-bar15" class="button-bar">
+      <button id="foodYourList-button54" style="font-weight:600;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-calm button-block icon-left ion-ios-list-outline">Your list</button>
+      <a ui-sref="tabsController.foodAdvice()" id="foodYourList-button55" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-android-apps">Advice</a>
+      <a ui-sref="tabsController.foodChances()" id="foodYourList-button56" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-ios-bell">Chances</a>
+    </div>
+    <a ui-sref="tabsController.foodTips()" id="foodYourList-button180" style="font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-balanced button-small button-block icon ion-android-attach"> Tips</a>
+    <button id="foodYourList-button63" ng-click="showModal()" class="button button-balanced button-small button-full icon ion-android-add bottom60"> Add what you need</button>
+    <ion-list id="foodYourList-list8">
+      <ion-item class="item-icon-left calm" id="foodYourList-list-item24" ui-sref="tabsController.todoItem({&quot;item&quot;:&quot;&quot;+item.$id+&quot;&quot;})" ng-repeat="item in items" ng-show="item.finished == false">
+        <i class="icon ion-android-star"></i>{{item.title}}</ion-item>
+    </ion-list>
+    <a ui-sref="tabsController.foodYourListWIT()" id="foodYourList-button71" style="font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-energized button-small button-block icon ion-help bottom0"> What is that</a>
+    <a ui-sref="tabsController.foodYourListBought()" id="foodYourList-button144" style="font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-dark button-small button-block icon ion-android-done-all bottom30"> Things you bought</a>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view title="Food - Advice - Buritto - Map" hide-nav-bar="true" id="page30">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="false">
+    <div id="foodAdviceBurittoMap-button-bar25" class="button-bar nomargin">
+      <a ui-sref="tabsController.foodYourList()" id="foodAdviceBurittoMap-button111" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-ios-list-outline nomargin">Your list</a>
+      <button id="foodAdviceBurittoMap-button112" style="font-weight:600;font-size:12px;" class="button button-calm button-block icon-left ion-android-apps nomargin">Advice</button>
+      <a ui-sref="tabsController.foodChances()" id="foodAdviceBurittoMap-button113" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-ios-bell nomargin">Chances</a>
+    </div>
+    <a ui-sref="tabsController.foodTips()" id="foodAdviceBurittoMap-button168" style="border-radius:0px 0px 0px 0px;" class="button button-balanced button-small button-full icon ion-android-attach"> Tips</a>
+    <h4 id="foodAdviceBurittoMap-heading29" style="color:#000000;text-align:center;">Location of the shop</h4>
+    <h5 id="foodAdviceBurittoMap-heading30" style="color:#000000;font-weight:lighter;text-align:center;">The Fresh Grocer of Progress Plaza</h5>
+    <creator-map-component options="{}" marker="true" location="The Fresh Grocer of Progress Plaza" zoom="16" style="display:block;position:relative;width:100%;height:300px;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+    <a ui-sref="tabsController.foodAdviceWIT()" id="foodAdviceBurittoMap-button114" style="border-radius:0px 0px 0px 0px;" class="button button-energized button-small button-block icon ion-help bottom0"> What is that</a>
+    <a ui-sref="tabsController.foodAdvice()" id="foodAdviceBurittoMap-button115" style="border-radius:0px 0px 0px 0px;" class="button button-assertive button-small button-full icon ion-android-arrow-forward bottom30"> Back</a>
+  </ion-content>
+</ion-view>

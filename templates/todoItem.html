@@ -1,0 +1,23 @@
+<ion-view title="todo.item" hide-nav-bar="true" id="page23">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="false">
+    <div id="todoItem-button-bar35" class="button-bar">
+      <a ui-sref="tabsController.foodYourList()" id="todoItem-button187" style="font-weight:600;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-calm button-block icon-left ion-ios-list-outline">Your list</a>
+      <a ui-sref="tabsController.foodAdvice()" id="todoItem-button188" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-android-apps">Advice</a>
+      <a ui-sref="tabsController.foodChances()" id="todoItem-button189" style="font-weight:lighter;font-size:12px;" class="button button-positive button-block icon-left ion-ios-bell">Chances</a>
+    </div>
+    <a ui-sref="tabsController.foodAdvice()" id="todoItem-button190" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-balanced button-small button-block icon ion-android-attach"> Tips</a>
+    <div class="spacer" style="width: 320px; height: 33px;"></div>
+    <div id="todoItem-button-bar37" class="button-bar bottom30">
+      <button id="todoItem-button69" ng-click="toggleFinished()" ng-show="item.finished == true" style="border-radius:0px 0px 0px 0px;" class="button button-calm button-small button-full icon ion-android-checkbox-outline-blank"> Still looking for</button>
+      <button id="todoItem-button67" ng-click="toggleFinished()" ng-show="item.finished == false" style="border-radius:0px 0px 0px 0px;" class="button button-positive button-small button-full icon ion-android-checkbox-outline">
+      I found this</button>
+    </div>
+    <div id="todoItem-markdown23" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#000000;font-size:18px;">
+        <strong>{{item.title}}</strong>
+      </p>
+    </div>
+    <div id="todoItem-button-bar18" class="button-bar"></div>
+    <a ui-sref="tabsController.foodYourListIngredientWIT()" id="todoItem-button191" style="border-radius:0px 0px 0px 0px;" class="button button-energized button-small button-block icon ion-help bottom0"> What is that</a>
+  </ion-content>
+</ion-view>

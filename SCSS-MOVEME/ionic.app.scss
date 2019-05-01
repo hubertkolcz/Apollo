@@ -1,0 +1,165 @@
+$energized: #8B281F;
+$balanced: #D57030;
+$stable: #D9DCD8;
+$positive: #9BA747;
+$calm: #F29D4B;
+$assertive: #000000;
+$royal: #000000;
+$light: #ffffff;
+$link-color: $light;
+$SIDEMENU_TOP: #ff4b1f;
+$SIDEMENU_BOTTOM: #ff9068;
+$SIDEMENU_TRANSPARENCY: rgba(255,255,255,0.4);
+$button-block-margin: 0px;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.profile-image {
+	img {
+		border-radius: 50%;
+		margin: 10px;
+		border: 4px solid $SIDEMENU_TRANSPARENCY;
+		-webkit-box-shadow: 0px 0px 142px -37px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 142px -37px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 142px -37px rgba(0,0,0,0.75);
+	}
+	
+}
+// This code is required for Angular Google Maps to funciton
+ui-gmap-google-map {
+	height: 100%;
+	width: 100%;
+	display: block;
+	.angular-google-map {
+		height: 100%;
+		.angular-google-map-container {
+			height: 100%;
+		}
+		
+	}
+}
+.header-container {
+	background-color: rgba(139, 40, 31, 0.7);
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.description-container {
+	background-color: rgba(213, 112, 48, 0.7);
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.date-container {
+	background-color: rgba(155, 167, 71, 0.5);
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.text-container {
+	background-color: rgba(242, 157, 75, 0.7);
+}
+
+.opacity {
+	opacity: 0.5;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+
+.padding15 {
+	padding: 0 15px;
+}
+
+.style1 {
+	background-color: #FFB139;
+	border-radius: 15px;
+}
+
+.nomargin {
+	margin: 0px;
+}
+
+.notop {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.nobottom {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.bottom0 {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	border-radius: 0;
+}
+
+.bottom30 {
+	position: absolute;
+	bottom: 31px;
+	width: 100%;
+	border-radius: 0;
+}
+
+.bottom60 {
+	position: absolute;
+	bottom: 62px;
+	width: 100%;
+	border-radius: 0;
+}
+
+.bottom-fixed {
+	position: sticky;
+	bottom: 0;
+	z-index: 99;
+}
+
+.bottom-menu {
+	background-color: #FFC600;
+}
+
+// This code is required for Angular Google Maps to funciton
+ui-gmap-google-map {
+	height: 100%;
+	width: 100%;
+	display: block;
+	.angular-google-map {
+		height: 100%;
+		.angular-google-map-container {
+			height: 100%;
+		}
+		
+	}
+}
+ion-view,.pane,.view {
+	background-color: #D9DCD8;
+}
+
+body {
+	color: #FFFFFF;
+}
+
+body.platform-ios {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.ionic-body.platform-ios {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body.platform-android {
+	font-family: Raleway, sans-serif;
+}
+
+.ionic-body.platform-android {
+	font-family: Raleway, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6,.tab-item,input,button,select,textarea {
+	font-family: inherit;
+}
+

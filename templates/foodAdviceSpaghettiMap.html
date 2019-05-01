@@ -1,0 +1,19 @@
+<ion-view title="Food - Advice - Spaghetti - Map" hide-nav-bar="true" id="page29">
+  <ion-content padding="false" class="manual-ios-statusbar-padding" scroll="false">
+    <div id="foodAdviceSpaghettiMap-button-bar24" class="button-bar nomargin">
+      <a ui-sref="tabsController.foodYourList()" id="foodAdviceSpaghettiMap-button107" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-ios-list-outline nomargin">Your list</a>
+      <button id="foodAdviceSpaghettiMap-button108" style="font-weight:600;font-size:12px;" class="button button-calm button-block icon-left ion-android-apps nomargin">Advice</button>
+      <a ui-sref="tabsController.foodChances()" id="foodAdviceSpaghettiMap-button109" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-ios-bell nomargin">Chances</a>
+    </div>
+    <a ui-sref="tabsController.foodTips()" id="foodAdviceSpaghettiMap-button166" style="border-radius:0px 0px 0px 0px;" class="button button-balanced button-small button-block icon ion-android-attach"> Tips</a>
+    <h4 id="foodAdviceSpaghettiMap-heading27" style="color:#000000;text-align:center;">Location of the shop:</h4>
+    <h5 id="foodAdviceSpaghettiMap-heading28" style="color:#000000;font-weight:lighter;text-align:center;">Hue Fusion Food Market</h5>
+    <creator-map-component options="{}" marker="true" location="1601 Cecil B. Moore Ave, Philadelphia, PA 19121" zoom="16" style="display:block;position:relative;width:100%;height:300px;">
+      <ui-gmap-google-map ng-if="map.center" center="map.center" zoom="map.zoom" options="map.options">
+        <ui-gmap-marker coords="map.marker.coords" idkey="map.marker.id" options="map.marker.options"></ui-gmap-marker>
+      </ui-gmap-google-map>
+    </creator-map-component>
+    <a ui-sref="tabsController.foodAdvice()" id="foodAdviceSpaghettiMap-button116" class="button button-assertive button-small button-block icon ion-android-arrow-forward bottom30"> Back </a>
+    <a ui-sref="tabsController.foodAdviceWIT()" id="foodAdviceSpaghettiMap-button110" style="border-radius:0px 0px 0px 0px;" class="button button-energized button-small button-block icon ion-help bottom0"> What is that</a>
+  </ion-content>
+</ion-view>

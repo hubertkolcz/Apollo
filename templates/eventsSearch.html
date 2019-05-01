@@ -1,0 +1,37 @@
+<ion-view title="Events - Search" hide-nav-bar="true" id="page6">
+  <ion-content padding="false" class="manual-ios-statusbar-padding">
+    <div id="eventsSearch-button-bar3" class="button-bar">
+      <a ui-sref="tabsController.eventsPopular()" id="eventsSearch-button13" style="font-weight:lighter;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-positive button-block icon-left ion-android-globe">Popular</a>
+      <a ui-sref="tabsController.eventsDashboard()" id="eventsSearch-button14" style="font-weight:lighter;font-size:12px;" class="button button-positive button-block icon-left ion-android-home">Home</a>
+      <button id="eventsSearch-button15" style="font-weight:600;font-size:12px;border-radius:0px 0px 0px 0px;" class="button button-calm button-block icon-left ion-ios-search">Search</button>
+    </div>
+    <div id="eventsSearch-container3">
+      <ion-list id="eventsSearch-list1">
+        <form id="eventsSearch-form1" class="list padding15">
+          <h4 id="eventsSearch-heading14" style="color:#FFFFFF;text-align:center;"></h4>
+          <ion-toggle toggle-class="toggle-positive" ng-checked="true" id="eventsSearch-toggle2">Friends</ion-toggle>
+          <label class="item item-select" id="eventsSearch-select2">
+            <span class="input-label">Category</span>
+            <select>
+              <option>Charity</option>
+              <option>Crowdfunding</option>
+              <option>Foodraising</option>
+              <option></option>
+            </select>
+          </label>
+          <ion-radio id="eventsSearch-radio1" name="type">Event</ion-radio>
+          <ion-radio id="eventsSearch-radio2" name="type">Organisation</ion-radio>
+          <label class="item item-input" id="eventsSearch-input2">
+            <span class="input-label">City</span>
+            <input type="text" placeholder="">
+          </label>
+          <ion-item class="range range-balanced" id="eventsSearch-range1">Max range
+            <input type="range" value="10" min="0" max="100" step="10" name="miles">
+          </ion-item>
+          <a ui-sref="eventsSearchHorOrNot()" id="eventsSearch-button16" style="font-weight:600;border-radius:0px 0px 0px 0px;" class="button button-balanced button-small button-block">Find event, that you need!</a>
+        </form>
+      </ion-list>
+    </div>
+    <button id="eventsSearch-button76" style="border-radius:0px 0px 0px 0px;" class="button button-energized button-small button-block icon ion-help bottom"> What is that</button>
+  </ion-content>
+</ion-view>
