@@ -17,6 +17,11 @@
   font-weight: normal;
   font-style: normal; }
 
+body {
+  max-width: 300px;
+  max-height: 640px;
+}
+
 .ion, .ionicons,
 .ion-alert:before,
 .ion-alert-circled:before,
