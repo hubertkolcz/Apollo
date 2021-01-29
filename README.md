@@ -9,3 +9,12 @@ The prototype of a hybrid, double-platform (iOS and Android) application which I
 Foremostst, a user would have an option to select products and add those into a shopping list, based on which back-end logic indicates shops and products with the most favorable prices (due to their expiring time of usefulness). The application would also suggest a recipe for a cheap meal, consists of products from nearby stores.
 Secondly, the application would suggest nearby events, which aim to support a local community to achieve the UN's sustainable development goals. Thanks to the integration with Facebook, a user would be able to easily go to an interesting event with his friends.
 Both modules would be connected by a gamification system, based on points for contribution to society and monetary gain.
+
+--- Photos:
+![alt text](https://ibb.co/5TcbwBg)
+https://ibb.co/FBdQsB7
+https://ibb.co/GQpMkLz
+https://ibb.co/2Y39W6j
+https://ibb.co/cXR25nh
+https://ibb.co/h15v7g3
+https://ibb.co/XXMWnwz
