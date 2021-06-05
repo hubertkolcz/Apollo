@@ -3,7 +3,7 @@ The Apollo application project allowed the team of students of the University of
 which finals took place in Philadelphia in April 2019. The purpose of the creation of the application was to support actions to achieve the goals of the UN's Sustainable Development in the "Zero hunger" and "Responsible production and consumption" categories.
 
 ## Preview
-https://lyonzee.github.io/Apollo/
+https://hubertkolcz.github.io/Apollo/
 
 ## Technology
 The prototype of a hybrid, double-platform (iOS and Android) application which I created by Ionic technology. The prototype was developed to an early stage, meeting the needs of the presentation. To do so, I used Firebase and Google Maps API to simulate a process of purchase selected products.
