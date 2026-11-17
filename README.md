@@ -15,3 +15,6 @@ Both modules would be connected by a gamification system, based on points for co
 
 ## Gallery - Design
 <a href="https://ibb.co/5TcbwBg"><img src="https://i.ibb.co/5TcbwBg/Apollo-screen-1.jpg" alt="Apollo-screen-1" border="0"></a> <a href="https://ibb.co/FBdQsB7"><img src="https://i.ibb.co/FBdQsB7/Apollo-screen-2.jpg" alt="Apollo-screen-2" border="0"></a> <a href="https://ibb.co/GQpMkLz"><img src="https://i.ibb.co/GQpMkLz/Apollo-screen-3.jpg" alt="Apollo-screen-3" border="0"></a> <a href="https://ibb.co/2Y39W6j"><img src="https://i.ibb.co/2Y39W6j/Apollo-screen-4.jpg" alt="Apollo-screen-4" border="0"></a> <a href="https://ibb.co/cXR25nh"><img src="https://i.ibb.co/cXR25nh/Apollo-screen-5.jpg" alt="Apollo-screen-5" border="0"></a> <a href="https://ibb.co/h15v7g3"><img src="https://i.ibb.co/h15v7g3/Apollo-screen-6.jpg" alt="Apollo-screen-6" border="0"></a> <a href="https://ibb.co/XXMWnwz"><img src="https://i.ibb.co/XXMWnwz/Apollo-screen-7.jpg" alt="Apollo-screen-7" border="0"></a>
+
+## Configuration
+The original Google Maps and Firebase keys were removed from the code. To run the prototype, put your own Google Maps JavaScript API key in `js/googlemaps.init.js` and your Firebase project settings in `js/todos.js`.

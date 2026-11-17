@@ -4,7 +4,7 @@ angular.module('todos', ["firebase"])
 
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyC7GwRcFZKyxAO9NhzW4AKB4pcekK4wqHs",
+    apiKey: "YOUR_FIREBASE_API_KEY",
     authDomain: "apollo-1552652889218.firebaseapp.com",
     databaseURL: "https://apollo-1552652889218.firebaseio.com",
     projectId: "apollo-1552652889218",
